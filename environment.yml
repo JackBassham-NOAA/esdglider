@@ -1,6 +1,7 @@
 name: esdglider
 channels:
   - conda-forge
+  # FIXME msys2 still not working for rsync
   - msys2
 dependencies:
   - python=3.12
